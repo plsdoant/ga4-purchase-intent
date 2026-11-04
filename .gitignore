@@ -1,0 +1,24 @@
+# Data and models stay local (BigQuery extracts, processed tables, trained models)
+data/**
+!data/raw/
+!data/processed/
+!data/**/.gitkeep
+models/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Credentials
+*.json.key
+service-account*.json
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+master_sheet.md
