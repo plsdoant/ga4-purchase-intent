@@ -1,0 +1,15 @@
+check,sessions affected,share of all sessions,converted sessions affected,share of converted sessions,conversion rate in group,decision
+missing_session_id,0,0.000000,0,0.000000,,drop (none found)
+no_session_start,5272,0.014639,103,0.021246,0.019537,"keep, flag"
+window_start_edge,3,0.000008,0,0.000000,0.000000,drop
+window_end_edge,77,0.000214,1,0.000206,0.012987,drop
+purchase_without_browsing,175,0.000486,175,0.036097,1.000000,drop
+purchase_without_cart,2031,0.005640,2031,0.418936,1.000000,"keep, flag (Task B scope)"
+bad_revenue,411,0.001141,411,0.084777,1.000000,"keep label, flag revenue"
+bad_transaction_id,813,0.002258,813,0.167698,1.000000,"keep, flag"
+duplicate_purchases,552,0.001533,552,0.113861,1.000000,"keep label, dedupe revenue"
+placeholder_context,84108,0.233550,1342,0.276815,0.015956,map to 'unknown'
+gap_over_timeout,224,0.000622,5,0.001031,0.022321,"keep, flag"
+duration_over_4h,26,0.000072,0,0.000000,0.000000,drop
+over_500_events,17,0.000047,11,0.002269,0.647059,keep
+zero_shopper_actions,24883,0.069095,0,0.000000,0.000000,keep
